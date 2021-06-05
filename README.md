@@ -95,6 +95,14 @@ Loan Token and Loan Creation Block diagram [KP]
 
 ## FUTURE ENHANCEMENTS:
 •	User Interface (UI)
-•	Lend Crypto
-•	Stake Crypto
+•	Crypto sales
+•	Enhanced loan functionality incl. periodic interest payments, LTV liquidation triggers
+​       Crypto lending
+​	Integrate ETH-wrapped Crypto liquidity
+​	Smart contract code: enhanced error catching & security
+​	Option to transact in Fiat Currency
+​	Expand Crypto Range
+​	Crypto staking
+
+
 
