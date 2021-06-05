@@ -3,8 +3,7 @@
 
 ![contract](Images/Virgo.jpg)
 
-
-INTRODUCTION
+# INTRODUCTION
 
 The breakout of the cryptocurrency and blockchain markets during the last decade created one of the most disruptive forces in 
 the global financial markets.
@@ -18,7 +17,7 @@ Like traditional banks, DeFi applications allow users to borrow, lend, earn inte
 among other things. The collection of services is often used by people seeking to borrow against their crypto holdings to 
 place even larger bets.
 
-OUR MISSION:
+# OUR MISSION
 
 Our Mission is to accomplish the following:
 Loan Token and Loan Creation Block diagram [KP]
@@ -33,13 +32,13 @@ Loan Token and Loan Creation Block diagram [KP]
 •	Loan > repay loan before due date, or repossess overdue loan
 
 
-Scope:
+# SCOPE
 
 •	User can create a Crypto portfolio across three coins (BTC, UNI and LINK) with ETH
 •	Application is based on Ethereum (ETH) including pricing
 
 
-Virgo Contract
+# VIRGO CONTRACT
 •	Our Virgo Smart Contract allows you to deposit ether.
 
 •	It maps the sender address to their respective coin balance.
@@ -48,10 +47,10 @@ Virgo Contract
 
 •	Finally the contract reduces the ether balance with the amount of token purchased
 
-Current Functionality:
+# CURRENT FUNCTIONALITY
 •	Borrow ETH against Crypto holdings by applying certain LTV (<60%) & term which determines rate
 
-Buy Token:
+## BUY TOKEN
 •	Import real-time market prices using Kovan Network
 
 •	Use ERC-20 to create tokens
@@ -62,7 +61,7 @@ Buy Token:
 
 •	Mint contract to issue new tokens for Owner
 
-Loan Token
+## LOAN TOKEN
 
 •	Issues Fungible Tokens following ERC20 and ERC20Mintable standards 
 
@@ -71,7 +70,7 @@ Loan Token
 •	Token approves address spending allowances to support ‘transferFrom’ functionality
 
 
-Collateral Contract
+## COLLATERAL CONTRACT
 
 •	Creates loan request object based on user's token collateral, collateral amount, loan amount, payoff amount and duration
 
@@ -80,7 +79,7 @@ Collateral Contract
 •	Provides function for a lender to accept loan request by
 
 
-Loan Contract
+## LOAN CONTRACT
 •	Creates Loan Object with attributes
 		1.Borrower 
 		2.Lender 
@@ -94,7 +93,7 @@ Loan Contract
 •	Repossess Loan: Overdue Loan closed and Transfer collateral tokens to Lender
 
 
-Future Enhancements:
+## FUTURE ENHANCEMENTS:
 •	User Interface (UI)
 •	Lend Crypto
 •	Stake Crypto
