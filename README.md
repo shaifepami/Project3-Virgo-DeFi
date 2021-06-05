@@ -164,6 +164,6 @@ It achieves the following:
 •	Lend Crypto
 •	Stake Crypto
 
-# Resouces ---link to video
+# Resources ---link to video
 
  [Video Demo Link](https://1drv.ms/p/s!Aola6McPYvrQnxL7-1Lv4MUn2mCj)
