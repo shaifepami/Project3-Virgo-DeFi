@@ -17,6 +17,17 @@ Like traditional banks, DeFi applications allow users to borrow, lend, earn inte
 among other things. The collection of services is often used by people seeking to borrow against their crypto holdings to 
 place even larger bets.
 
+<details><summary>  <b> Setting up the contract </b></summary>
+	* [Remix IDE](https://remix.ethereum.org) to create the contract using Solidity programming Language.
+
+* [Ganache](https://www.trufflesuite.com/ganache) a Development blockchain with prefunded account addresses which can be uused for testing purposes. 
+
+* [MetaMask](https://metamask.io) a Crypto wallet and gateway to blockchain apps. Download the metamask Browser extension and pin it to your favorite browser and point it to the localhost:8545 by createting a 'testnet' chain, or replace the port with what you have set in your workspace.
+<br>
+
+
+	
+
 # OUR MISSION
 
 Our Mission is to accomplish the following:
