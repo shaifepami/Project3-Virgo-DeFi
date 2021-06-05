@@ -1,3 +1,7 @@
+<p align="center"><img width=100% src="Images/columbia_engineering.png"></p>
+
+<p align="center" style="color:DodgerBlue; font-family:cambria; font-variant: normal; font-size:1000pt">Columbia | FinTech
+</p>
 
 # PROJECT3: VIRGO-DEFI SOLIDITY CONTRACT
 
@@ -161,3 +165,7 @@ It achieves the following:
 •	Stake Crypto
 
 # Resouces ---link to video
+
+![Video Link](https://1drv.ms/p/s!Aola6McPYvrQnxL7-1Lv4MUn2mCj)
+
+ [Video Link](https://1drv.ms/p/s!Aola6McPYvrQnxL7-1Lv4MUn2mCj)
