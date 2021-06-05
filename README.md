@@ -1,8 +1,9 @@
 
-# Project3-Virgo-DeFi
+# PROJECT3: VIRGO-DEFI SOLIDITY CONTRACT
 
 ![contract](Images/Virgo.jpg)
 
+<<<<<<< HEAD
 
 # Overview
 
@@ -10,6 +11,8 @@ The aim of the project is to build an appliacation that will allow users to be a
 The program is built using SMART contract on Solidity.A users who can deposit Etherium into the contract can also initiate a process to book a loan against his/her deposit.
 i.e the user can borrow ETH against Crypto holdings by applying certain LTV (<60%) & term which determines rate.
 
+=======
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 # INTRODUCTION
 
 The breakout of the cryptocurrency and blockchain markets during the last decade created one of the most disruptive forces in 
@@ -24,7 +27,11 @@ Like traditional banks, DeFi applications allow users to borrow, lend, earn inte
 among other things. The collection of services is often used by people seeking to borrow against their crypto holdings to 
 place even larger bets.
 
+<<<<<<< HEAD
 <details><summary>  <b> ENVIRONMENTAL PREREQUISITES </b></summary>
+=======
+<details><summary>  <b> Setting up the contract </b></summary>
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 	* [Remix IDE](https://remix.ethereum.org) to create the contract using Solidity programming Language.
 
 * [Ganache](https://www.trufflesuite.com/ganache) a Development blockchain with prefunded account addresses which can be uused for testing purposes. 
@@ -32,6 +39,7 @@ place even larger bets.
 * [MetaMask](https://metamask.io) a Crypto wallet and gateway to blockchain apps. Download the metamask Browser extension and pin it to your favorite browser and point it to the localhost:8545 by createting a 'testnet' chain, or replace the port with what you have set in your workspace.
 </details>
 
+<<<<<<< HEAD
 # Design
 
 <details><summary>  <b> Design </b></summary>
@@ -48,6 +56,12 @@ Virgo Contract​ ==> Buy Token ==> Loan Token​ ==> Collateral ==> Loan​
 
 ![Workflow](Images/Workflow.png)
 The process flow involves the following steps highlighted below.
+=======
+
+	
+
+# OUR MISSION
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 
 •	virgoContract > deposit ETH, create token balances (initial zero) 
 
@@ -69,13 +83,22 @@ The process flow involves the following steps highlighted below.
 
 </details>
 
+<<<<<<< HEAD
+=======
+# SCOPE
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 
 
 # Virgo Contract​
 <details><summary>  <b> Virgo Contract </b></summary>
 [`virgoContract.sol`](virgoContract.sol) -- virgo contrat create the Crypto Portfolio and Token Specific Account Tracking​. It achieves the following:
 
+<<<<<<< HEAD
 •	Allow users to deposit ether.
+=======
+# VIRGO CONTRACT
+•	Our Virgo Smart Contract allows you to deposit ether.
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 
 •	Map the sender address to their respective coin balance.
 
@@ -83,6 +106,7 @@ The process flow involves the following steps highlighted below.
 
 •	Finally the contract reduces the ether balance with the amount of token purchased
 
+<<<<<<< HEAD
 </details>
 
 Describe each of the contract and include the program with a screenshot
@@ -98,6 +122,12 @@ Describe each of the contract and include the program with a screenshot
 
 It achieves the following:
 
+=======
+# CURRENT FUNCTIONALITY
+•	Borrow ETH against Crypto holdings by applying certain LTV (<60%) & term which determines rate
+
+## BUY TOKEN
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 •	Import real-time market prices using Kovan Network
 
 •	Use ERC-20 to create tokens
@@ -108,6 +138,7 @@ It achieves the following:
 
 •	Mint contract to issue new tokens for Owner
 
+<<<<<<< HEAD
 </details>
 
 # Loan Token​
@@ -115,6 +146,9 @@ It achieves the following:
 <details><summary>  <b> Loan Token​ </b></summary>
 
 [`P3_loan_token_v2.sol`](P3_loan_token_v2.sol) ---This contract  achieves the following :
+=======
+## LOAN TOKEN
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 
 •	Issues Fungible Tokens following ERC20 and ERC20Mintable standards 
 
@@ -124,11 +158,15 @@ It achieves the following:
 
 </details>
 
+<<<<<<< HEAD
 # Collateral​
 
 <details><summary>  <b> Collateral​ </b></summary>
 
 [`P3_collateral_test_v2.sol`](P3_collateral_test_v2.sol) ---This contract  achieves the following :
+=======
+## COLLATERAL CONTRACT
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 
 •	Creates loan request object based on user's token collateral, collateral amount, loan amount, payoff amount and duration
 
@@ -143,6 +181,10 @@ It achieves the following:
 
 [`P3_loan_v2.sol`](P3_loan_v2.sol) ---This contract  achieves the following :
 
+<<<<<<< HEAD
+=======
+## LOAN CONTRACT
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 •	Creates Loan Object with attributes
 		1.Borrower 
 		2.Lender 
@@ -157,9 +199,29 @@ It achieves the following:
 
 </details>
 
+<<<<<<< HEAD
 # Future Enhancements:
+=======
+## FUTURE ENHANCEMENTS:
+>>>>>>> 98c05ca9d19db93d20e44b60933b3c5626e6ccd5
 •	User Interface (UI)
-•	Lend Crypto
-•	Stake Crypto
+
+•	Crypto sales
+
+•	Enhanced loan functionality incl. periodic interest payments, LTV liquidation triggers
+
+•       Crypto lending
+
+•	Integrate ETH-wrapped Crypto liquidity
+
+•	Smart contract code: enhanced error catching & security
+
+•	Option to transact in Fiat Currency
+
+•	Expand Crypto Range
+
+•	Crypto staking
+
+
 
 # Resouces ---link to video
