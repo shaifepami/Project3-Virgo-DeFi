@@ -1,5 +1,5 @@
 
-# Project3-Virgo-DeFi
+# PROJECT3: VIRGO-DEFI SOLIDITY CONTRACT
 
 ![contract](Images/Virgo.jpg)
 
