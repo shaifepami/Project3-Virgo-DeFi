@@ -100,17 +100,17 @@ Loan Token and Loan Creation Block diagram [KP]
 
 •	Enhanced loan functionality incl. periodic interest payments, LTV liquidation triggers
 
-​       Crypto lending
+•       Crypto lending
 
-​	Integrate ETH-wrapped Crypto liquidity
+•	Integrate ETH-wrapped Crypto liquidity
 
-​	Smart contract code: enhanced error catching & security
+•	Smart contract code: enhanced error catching & security
 
-​	Option to transact in Fiat Currency
+•	Option to transact in Fiat Currency
 
-​	Expand Crypto Range
+•	Expand Crypto Range
 
-​	Crypto staking
+•	Crypto staking
 
 
 
